@@ -18,4 +18,4 @@ jobs:
       - name: Install necessary packages
         run: npm install
       - name: Build the project
-        run: CI false npm run build
+        run: CI = false npm run build
