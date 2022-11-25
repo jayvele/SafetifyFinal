@@ -36,7 +36,7 @@ const FindingHospital = (props) => {
     axios
       .request(options)
       .then((response) => {
-        alert("Huacuiic")
+        
         setHospital(response.data);
       })
       .catch((error) => {
