@@ -22,7 +22,7 @@ const HospitalCard = (props) => {
       </button> */}
       <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
         <Button variant="contained" onClick={handleNext} sx={{ mt: 3, ml: 1 }}>
-          Choose Hospital
+          Choose Hospitals
         </Button>
       </Box>
     </div>
