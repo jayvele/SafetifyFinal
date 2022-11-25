@@ -17,6 +17,6 @@ jobs:
           node-version: '16'
       - name: Install necessary packages
         run: npm install
+      - CI: false
       - name: Build the project
-        CI: false
         run: npm run build
