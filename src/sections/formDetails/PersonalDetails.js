@@ -90,11 +90,14 @@ export default function PersonalDetails(props) {
 
   const handleNext = async (event) => {
     event.preventDefault();
+    alert("hello")
     const user = await axios.patch(`http://localhost:5000/api/users/${authCtx.token}`, {
       personalDetails: addPersonalDetailsObject,
+      
     });
 
     Navigate('/dashboard/medicalInfo');
+    
   };
 
   useEffect(() => {
